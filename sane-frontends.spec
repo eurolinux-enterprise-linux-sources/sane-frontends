@@ -1,6 +1,6 @@
 Name: sane-frontends
 Version: 1.0.14
-Release: 19%{?dist}
+Release: 17%{?dist}
 Summary: Graphical frontend to SANE
 URL: http://www.sane-project.org
 Source0: ftp://ftp.sane-project.org/pub/sane/%{name}-%{version}/%{name}-%{version}.tar.gz
@@ -49,12 +49,6 @@ rm -f %{buildroot}%{_datadir}/sane/sane-style.rc
 # intended to be used from the command line
 
 %changelog
-* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 1.0.14-19
-- Mass rebuild 2014-01-24
-
-* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.0.14-18
-- Mass rebuild 2013-12-27
-
 * Mon Jul 08 2013 Nils Philippsen <nils@redhat.com> - 1.0.14-17
 - add comments to patches
 - describe correct option names in xcam man page
